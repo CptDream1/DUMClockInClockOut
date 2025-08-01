@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0"/>
+  <title>Al‑Madinah Time Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Al‑Madinah Online School</h1>
+  <section id="add">
+    <h2>Add Staff Member</h2>
+    <input type="text" id="staffName" placeholder="Staff Name">
+    <input type="number" id="wage" placeholder="Hourly Wage (£)">
+    <button id="addBtn">Add</button>
+  </section>
+  <section id="staffList">
+    <h2>Staff</h2>
+    <div id="staffContainer"></div>
+  </section>
+  <section id="records">
+    <h2>Records This Session</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Clock In</th><th>Clock Out</th><th>Hours</th><th>Pay (£)</th></tr></thead>
+      <tbody id="recordsBody"></tbody>
+    </table>
+    <div id="totalPay"></div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
